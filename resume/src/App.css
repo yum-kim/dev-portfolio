@@ -1,31 +1,15 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-
-:root{
-  --primary-font-family: 'Roboto', sans-serif;
-  --primary-font-size: 3rem;
-  --secondary-font-size: 2rem;
-}
-
-* {
-  box-sizing: border-box;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-}
-
 .App {
-  width: 1020px;
   height: 100vh;
-  font-family: var(--primary-font-family);
-  margin: 0 auto;
 }
 
 /* desktop */
 @media screen and (min-width: 1024px) {
   .App {
+    width: 1020px;
     padding: 20px;
+    margin: 0 auto;
   }
 }
 

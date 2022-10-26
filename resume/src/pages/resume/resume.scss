@@ -1,0 +1,102 @@
+@import '../../styles/main.scss';
+
+.mb {
+    margin-bottom: 2rem;
+}
+
+.main-title {
+    @include text-style-main-title();
+
+    &.name {
+        @include text-style-main-title(800);
+    }
+}
+
+.secondary-main-title {
+    @include text-style-secondary-main-title();
+
+    &.company {
+        @include text-style-secondary-main-title(500);
+    };
+}
+
+.sub-title {
+    @include text-style-sub-title();
+
+    &.quoto {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    &.quoto::before {
+        content: '';
+        display: block;
+        width: 3px;
+        height: 2rem;
+        background-color: $black;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.secondary-sub-title {
+    @include text-style-secondary-sub-title();
+}
+
+.box {
+    padding: 40px 0;
+}
+
+.container {
+    &:not(:last-child) {
+        margin-bottom: 5rem;
+    }
+}
+
+.intro-box {
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    .intro-text {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.item {
+    @include text-style-item();
+
+    margin-bottom: 1rem;
+
+    &.bullet {
+        position: relative;
+        padding-left: 15px;
+    }
+
+    &.bullet::before {
+        content: '';
+        display: block;
+        width: 5px;
+        height: 5px;
+        background-color: $bullet;
+        border-radius: 50%;
+        position: absolute;
+        left: 0; 
+        top: 0.6rem;
+    }
+}
+
+.additional {
+    @include text-style-additional();
+}
+
+
+
+

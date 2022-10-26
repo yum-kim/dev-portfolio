@@ -1,19 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
 
 const AppLayout = ({ children }) => {
-    const mainWrapper = styled.main`
-
-    
-    `;
-
     return (
-        <mainWrapper>
-            <nav>고정영역</nav>
-            <section>
+        <>
+            <header>고정영역</header>
+            <main>
                 {children}
-            </section>
-        </mainWrapper>
+            </main>
+        </>
     );
 };
 

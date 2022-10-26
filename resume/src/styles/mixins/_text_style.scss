@@ -1,0 +1,40 @@
+@mixin text-style-main-title($font-weight: 700) {
+  font-size: $font-size-main-title;
+  line-height: $line-height-main-title;
+  letter-spacing: $letter-spacing-main-title;
+  font-weight: $font-weight;
+}
+
+@mixin text-style-secondary-main-title($font-weight : 700) {
+  font-size: $font-size-secondary-main-title;
+  line-height: $line-height-secondary-main-title;
+  letter-spacing: $letter-spacing-secondary-main-title;
+  font-weight: $font-weight;
+}
+
+@mixin text-style-sub-title($font-weight : 700) {
+  font-size: $font-size-sub-title;
+  line-height: $line-height-sub-title;
+  letter-spacing: $letter-spacing-sub-title;
+  font-weight: $font-weight;
+}
+
+@mixin text-style-secondary-sub-title($font-weight : 400) {
+  font-size: $font-size-secondary-sub-title;
+  line-height: $line-height-secondary-sub-title;
+  letter-spacing: $letter-spacing-secondary-sub-title;
+  font-weight: $font-weight;
+}
+
+@mixin text-style-item() {
+  font-size: $font-size-item;
+  line-height: $line-height-item;
+  letter-spacing: $letter-spacing-item;
+}
+
+@mixin text-style-additional() {
+  font-size: $font-size-additional;
+  line-height: $line-height-additional;
+  letter-spacing: $letter-spacing-additional;
+  color: $secondary;
+}
