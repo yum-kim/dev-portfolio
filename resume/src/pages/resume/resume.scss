@@ -17,33 +17,38 @@
 
     &.company {
         @include text-style-secondary-main-title(500);
-    };
+    }
 }
 
 .sub-title {
     @include text-style-sub-title();
-
-    &.quoto {
-        position: relative;
-        padding-left: 20px;
-        margin-bottom: 1.5rem;
-    }
-
-    &.quoto::before {
-        content: '';
-        display: block;
-        width: 3px;
-        height: 2rem;
-        background-color: $black;
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
 }
 
 .secondary-sub-title {
     @include text-style-secondary-sub-title();
+
+    &.experience-title {
+        @include text-style-secondary-sub-title(500);
+        margin-bottom: 5px;
+    }
+}
+
+.quoto {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.quoto::before {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 2rem;
+    background-color: $black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .box {
@@ -97,6 +102,38 @@
     @include text-style-additional();
 }
 
+.experience-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.experience-desc-title {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 2rem;
+    color: $black;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 2px;
+        height: 1.4rem;
+        background-color: $black;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.experience-box {
+    .desc {
+        margin: 2rem 0;
+        line-height: 1.5;
+        color: $dark
+    }
+}
 
 
 
