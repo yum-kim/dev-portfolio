@@ -49,23 +49,23 @@ const Resume = () => {
                         </div>
                         <ul className='summary'>
                             <li className='item bullet'>
-                                <strong>기간</strong>
+                                <h4>기간</h4>
                                 <p>2020.06 - 2022.09 (2개월 4개월)</p>
                             </li>
                             <li className='item bullet'>
-                                <strong>개발 언어</strong>
+                                <h4>개발 언어</h4>
                                 <p>JavaScript(ES6) , HTML5, CSS, jQuery / MySQL, SVN</p>
                             </li>
                             <li className='item bullet'>
-                                <strong>역할 / 담당</strong>
-                                <p>HTML5, CSS3, javaScript 기반 jQuery 사용 UI 구현</p>
-                                <p>미디어쿼리를 사용한 반응형 웹 디자인 구현</p>
-                                <p>양방 검사 오더에 대해 검체검사 위탁기관과의 검체검사 연동 작업 (랩지노믹스, Sqlab, 이원의료재단, Gclab)</p>
-                                <p>건강보험, 자동차보험, 산재보험의 청구화면 개발 및 보험 청구 프로그램 연동</p>
-                                <p>Critical Rendering Path를 고려한 렌더 최적화 코드 작성</p>
+                                <h4>역할 / 담당</h4>
+                                <p className='outline-bullet'>HTML5, CSS3, javaScript 기반 jQuery 사용 UI 구현</p>
+                                <p className='outline-bullet'>미디어쿼리를 사용한 반응형 웹 디자인 구현</p>
+                                <p className='outline-bullet'>양방 검사 오더에 대해 검체검사 위탁기관과의 검체검사 연동 작업 (랩지노믹스, Sqlab, 이원의료재단, Gclab)</p>
+                                <p className='outline-bullet'>건강보험, 자동차보험, 산재보험의 청구화면 개발 및 보험 청구 프로그램 연동</p>
+                                <p className='outline-bullet'>Critical Rendering Path를 고려한 렌더 최적화 코드 작성</p>
                             </li>
                             <li className='item bullet'>
-                                <strong>투입 인원</strong>
+                                <h4>투입 인원</h4>
                                 <p>8명 (Front-end: 3명, Back-end: 3명, C# 개발: 2명)</p>
                             </li>
                         </ul>
@@ -80,22 +80,22 @@ const Resume = () => {
                             <p>양/한방 병원 고객들을 관리하기 위한 페이지로 고객들의 세부 정보 혹은, 고객 별 외부 API와 연결될 정보 등 다양한 정보를 조회, 수정, 삭제 할 수 있는 관리자 페이지로 한달 여 시간을 기간으로 두어 작업이 진행되었습니다.</p>
                             <p>백엔드 개발자와 REST기반의 API 통신으로 데이터를 주고 받았습니다.</p>
                         </div>
-                        <ul>
+                        <ul className='summary'>
                             <li className='item bullet'>
-                                <strong>기간</strong>
+                                <h4>기간</h4>
                                 <p>2022.07 - 2022.07 (1개월)</p>
                             </li>
                             <li className='item bullet'>
-                                <strong>개발 언어</strong>
+                                <h4>개발 언어</h4>
                                 <p>JavaScript(ES6), HTML5, CSS, jQuery / SVN</p>
                             </li>
                             <li className='item bullet'>
-                                <strong>역할 / 담당</strong>
-                                <p>front-end 투입 인원 1명으로 진행된 프로젝트로 메인 프론트 담당</p>
-                                <p>페이지 디자인부터 프론트 개발까지 앞 단에서 필요한 작업은 전부 혼자 진행</p>
+                                <h4>역할 / 담당</h4>
+                                <p className='outline-bullet'>front-end 투입 인원 1명으로 진행된 프로젝트로 메인 프론트 담당</p>
+                                <p className='outline-bullet'>페이지 디자인부터 프론트 개발까지 앞 단에서 필요한 작업은 전부 혼자 진행</p>
                             </li>
                             <li className='item bullet'>
-                                <strong>투입 인원</strong>
+                                <h4>투입 인원</h4>
                                 <p>2명 (Front-end 1명, Back-end 1명)</p>
                             </li>
                         </ul>
