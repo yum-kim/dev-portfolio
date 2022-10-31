@@ -1,7 +1,6 @@
 import React from 'react';
 import AppLayout from '../../components/AppLayout';
 import './resume.scss';
-// import styles from './resume.module.scss';
 
 const Resume = () => {
 
@@ -10,15 +9,18 @@ const Resume = () => {
         <AppLayout>
             
             {/* 소개 */}
-            <article className='box'>
-                <h2 className='main-title name'>김유미</h2>
-                <h2 className='secondary-main-title'>Front-end Engineer</h2>
+            <article className='box mb'>
+                <h2 className='secondary-main-title'>안녕하세요.</h2>
+                <h2 className='main-title underline'>Front-end Developer</h2>
+                <h2 className='main-title name'>김유미 입니다.</h2>
                 <div className='intro-box'>
                     <p className='intro-text'><span className='bold'>3년 차 Web front-end 개발자</span>로 프로젝트 초기 기획 단계부터 배포 후 서비스 안정화 단계까지 참여해 본 경험이 있습니다.</p>
                     <p className='intro-text'>웹 퍼블리셔로 일을 시작했고, 이후 프론트 개발자로 업무를 확장하며 필요한 자질들을 꾸준히 쌓아왔습니다.</p>
                     <p className='intro-text'><span className='bold'>최적의 사용성을 고려한 UI 구현</span>을 좋아합니다.</p>
                 </div>
-                <button className='btn-primary btn-40'>Github</button>
+                <button className='btn-primary btn-40'>
+                    <a href="https://github.com/yum-kim" target="_blank">Github</a>
+                </button>
             </article>
 
             {/* 경력 */}
@@ -28,7 +30,7 @@ const Resume = () => {
                     <div className='mb'>
                         <h3 className='secondary-main-title company mb'>TNH</h3>
                         <h4 className='secondary-sub-title'>Web Front-end Developer/ publisher</h4>
-                        <span className='additional'>2020.06 - 2022.09 (2년 4개월)</span>
+                        <span className='additional'>2020.06 - 2022.09 (2년 4개월)</span>   
                     </div>
                     <ul>
                         <li className='item bullet'>양/한방 병의원급 EMR(전자차트) 프로그램 개발, KIMES 2022 국제 의료기기 병원 설비 전시회 출품</li>
@@ -39,8 +41,8 @@ const Resume = () => {
                 </div>
 
                 <div className="container">
-                    <h3 className='experience-title'>1. 양/한방 협진병원 EMR 프로그램 (Medi-C) 개발</h3>
-                    <span className='experience-desc-title'>양/한방 협진병원에서 사용하는 전자차트 프로그램</span>
+                    <h3 className='experience-title'><span class="count">01</span>양/한방 협진병원 EMR 프로그램 (Medi-C) 개발</h3>
+                    {/* <span className='experience-desc-title'>양/한방 협진병원에서 사용하는 전자차트 프로그램</span> */}
                     <div class='experience-box'>
                         <div className='desc'>
                             <p>양/한방 협진병원의 외래/입원을 모두 다뤄야하는 규모의 전자차트 프로그램으로 약 2년여 동안 개발이 진행됐고, 배포 과정에도 함께할 수 있었습니다.</p>
@@ -48,24 +50,24 @@ const Resume = () => {
                             <p>입사 초기에는 UI 구현만 담당하다가 곧 프론트 개발로 업무를 확장하면서 개인적으로도 큰 성장을 이루었고 회사에도 기여할 수 있었습니다.</p>
                         </div>
                         <ul className='summary'>
-                            <li className='item bullet'>
-                                <h4>기간</h4>
+                            <li className='item'>
+                                <h4 className='quoto'>기간</h4>
                                 <p>2020.06 - 2022.09 (2개월 4개월)</p>
                             </li>
-                            <li className='item bullet'>
-                                <h4>개발 언어</h4>
+                            <li className='item'>
+                                <h4 className='quoto'>개발 언어</h4>
                                 <p>JavaScript(ES6) , HTML5, CSS, jQuery / MySQL, SVN</p>
                             </li>
-                            <li className='item bullet'>
-                                <h4>역할 / 담당</h4>
-                                <p className='outline-bullet'>HTML5, CSS3, javaScript 기반 jQuery 사용 UI 구현</p>
-                                <p className='outline-bullet'>미디어쿼리를 사용한 반응형 웹 디자인 구현</p>
-                                <p className='outline-bullet'>양방 검사 오더에 대해 검체검사 위탁기관과의 검체검사 연동 작업 (랩지노믹스, Sqlab, 이원의료재단, Gclab)</p>
-                                <p className='outline-bullet'>건강보험, 자동차보험, 산재보험의 청구화면 개발 및 보험 청구 프로그램 연동</p>
-                                <p className='outline-bullet'>Critical Rendering Path를 고려한 렌더 최적화 코드 작성</p>
+                            <li className='item'>
+                                <h4 className='quoto'>역할 / 담당</h4>
+                                <p className='bullet'>HTML5, CSS3, javaScript 기반 jQuery 사용 UI 구현</p>
+                                <p className='bullet'>미디어쿼리를 사용한 반응형 웹 디자인 구현</p>
+                                <p className='bullet'>양방 검사 오더에 대해 검체검사 위탁기관과의 검체검사 연동 작업 (랩지노믹스, Sqlab, 이원의료재단, Gclab)</p>
+                                <p className='bullet'>건강보험, 자동차보험, 산재보험의 청구화면 개발 및 보험 청구 프로그램 연동</p>
+                                <p className='bullet'>Critical Rendering Path를 고려한 렌더 최적화 코드 작성</p>
                             </li>
-                            <li className='item bullet'>
-                                <h4>투입 인원</h4>
+                            <li className='item'>
+                                <h4 className='quoto'>투입 인원</h4>
                                 <p>8명 (Front-end: 3명, Back-end: 3명, C# 개발: 2명)</p>
                             </li>
                         </ul>
@@ -73,29 +75,29 @@ const Resume = () => {
                 </div>
 
                 <div className="container">
-                    <h3 className='experience-title'>2. Medi-C 어드민 페이지 개발</h3>
-                    <span className='experience-desc-title'>병원(고객)들을 관리하기 위한 페이지</span>
+                    <h3 className='experience-title'><span class="count">02</span>Medi-C 어드민 페이지 개발</h3>
+                    {/* <span className='experience-desc-title'>병원(고객)들을 관리하기 위한 페이지</span> */}
                     <div class='experience-box'>
                         <div className='desc'>
                             <p>양/한방 병원 고객들을 관리하기 위한 페이지로 고객들의 세부 정보 혹은, 고객 별 외부 API와 연결될 정보 등 다양한 정보를 조회, 수정, 삭제 할 수 있는 관리자 페이지로 한달 여 시간을 기간으로 두어 작업이 진행되었습니다.</p>
                             <p>백엔드 개발자와 REST기반의 API 통신으로 데이터를 주고 받았습니다.</p>
                         </div>
                         <ul className='summary'>
-                            <li className='item bullet'>
-                                <h4>기간</h4>
+                            <li className='item'>
+                                <h4 className='quoto'>기간</h4>
                                 <p>2022.07 - 2022.07 (1개월)</p>
                             </li>
-                            <li className='item bullet'>
-                                <h4>개발 언어</h4>
+                            <li className='item'>
+                                <h4 className='quoto'>개발 언어</h4>
                                 <p>JavaScript(ES6), HTML5, CSS, jQuery / SVN</p>
                             </li>
-                            <li className='item bullet'>
-                                <h4>역할 / 담당</h4>
-                                <p className='outline-bullet'>front-end 투입 인원 1명으로 진행된 프로젝트로 메인 프론트 담당</p>
-                                <p className='outline-bullet'>페이지 디자인부터 프론트 개발까지 앞 단에서 필요한 작업은 전부 혼자 진행</p>
+                            <li className='item'>
+                                <h4 className='quoto'>역할 / 담당</h4>
+                                <p className='bullet'>front-end 투입 인원 1명으로 진행된 프로젝트로 메인 프론트 담당</p>
+                                <p className='bullet'>페이지 디자인부터 프론트 개발까지 앞 단에서 필요한 작업은 전부 혼자 진행</p>
                             </li>
-                            <li className='item bullet'>
-                                <h4>투입 인원</h4>
+                            <li className='item'>
+                                <h4 className='quoto'>투입 인원</h4>
                                 <p>2명 (Front-end 1명, Back-end 1명)</p>
                             </li>
                         </ul>
@@ -108,7 +110,8 @@ const Resume = () => {
             <article className='box'>
                 <h2 className='main-title mb'>기술</h2>
                 <div className='container'>
-                    <h3 className='sub-title quoto'>HTML / CSS</h3>
+                    {/* <h3 className='sub-title quoto'>HTML / CSS</h3> */}
+                    <h3 className='sub-title check'>HTML / CSS</h3>
                     <p className='item bullet'>Semantic Markup 및 HTML의 구조를 한 눈에 파악할 수 있도록 노력합니다.</p>
                     <p className='item bullet'>웹 표준을 준수하며, 접근성 높은 웹 페이지를 구현합니다.</p>
                     <p className='item bullet'>Chrome, Safari, Firefox 등 여러 브라우저에서 동일한 화면을 볼 수 있도록 크로스 브라우징 작업이 가능합니다.</p>
@@ -116,7 +119,7 @@ const Resume = () => {
                     <p className='item bullet'>SCSS, Post CSS, Styled-component 를 사용해 효율적인 CSS 코드를 작성할 수 있습니다.</p>
                 </div>
                 <div className="container">
-                    <h3 className='sub-title quoto'>JavaScript</h3>
+                    <h3 className='sub-title check'>JavaScript</h3>
                     <p className='item bullet'>ES6 문법 사용에 익숙합니다.</p>
                     <p className='item bullet'>JavaScript의 동작원리를 이해하고 이를 바탕으로 코드를 작성하기 위해 노력합니다.</p>
                     <p className='item bullet'>서버 API 통신 작업과 이에 따른 비동기 처리 작업에 익숙합니다.</p>
@@ -124,12 +127,12 @@ const Resume = () => {
                     <p className='item bullet'>브라우저의 렌더링 원리를 이해하고 최적화된 프론트 코드 작성을 위해 노력합니다.</p>
                 </div>
                 <div className="container">
-                    <h3 className='sub-title quoto'>SPA Framework</h3>
+                    <h3 className='sub-title check'>SPA Framework</h3>
                     <p className='item bullet'>실제 프로젝트에서 SPA Framework를 적용해 볼 기회는 없었으나, 관심이 높아 기존 jQuery로 작성된 실무 프로젝트 코드를 스스로 React로 리팩토링 해 본 경험이 있습니다.</p>
                     <p className='item bullet'>현재 React와 Next.js를 공부 중에 있습니다.</p>
                 </div>
                 <div className="container">
-                    <h3 className='sub-title quoto'>Library</h3>
+                    <h3 className='sub-title check'>Library</h3>
                     <p className='item bullet'>npm</p>
                     <p className='item bullet'>postman</p>
                     <p className='item bullet'>Bootstrap, Ant design</p>
