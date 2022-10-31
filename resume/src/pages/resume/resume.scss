@@ -14,41 +14,20 @@
 
 .secondary-main-title {
     @include text-style-secondary-main-title();
+    position: relative;
+}
 
-    &.company {
-        @include text-style-secondary-main-title(500);
-    }
+.company {
+    @include text-style-secondary-main-title(500);
 }
 
 .sub-title {
     @include text-style-sub-title();
+    display: flex;
 }
 
 .secondary-sub-title {
     @include text-style-secondary-sub-title();
-
-    &.experience-title {
-        @include text-style-secondary-sub-title(500);
-        margin-bottom: 5px;
-    }
-}
-
-.quoto {
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 1.5rem;
-}
-
-.quoto::before {
-    content: '';
-    display: block;
-    width: 3px;
-    height: 2rem;
-    background-color: $black;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .box {
@@ -75,46 +54,30 @@
     font-weight: 600;
 }
 
+.bullet {
+    position: relative;
+    padding-left: 15px;
+}
+
+.bullet::before {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: $bullet;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.6rem;
+}
+
 .item {
     @include text-style-item();
-
     margin-bottom: 1rem;
 
-    &.bullet {
-        position: relative;
-        padding-left: 15px;
+    .bullet {
+        margin-bottom: 0.5rem;
     }
-
-    &.bullet::before {
-        content: '';
-        display: block;
-        width: 5px;
-        height: 5px;
-        background-color: $bullet;
-        border-radius: 50%;
-        position: absolute;
-        left: 0; 
-        top: 0.6rem;
-    }
-
-    .outline-bullet {
-        position: relative;
-        padding-left: 15px;
-    }
-
-    .outline-bullet::before {
-        content: '';
-        display: block;
-        width: 4px;
-        height: 4px;
-        border: 1px solid $secondary;
-        border-radius: 50%;
-        position: absolute;
-        left: 0; 
-        top: 0.6rem;
-    }
-
-    
 }
 
 .additional {
@@ -124,7 +87,28 @@
 .experience-title {
     font-size: 1.4rem;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 3rem;
+
+    .count {
+        position: relative;
+        color: #fff;
+        margin-right: 20px;
+    }
+
+    .count::before {
+        content: '';
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: $mint;
+        border-radius: 5px;
+        font-weight: 700;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
 }
 
 .experience-desc-title {
@@ -148,21 +132,83 @@
 
 .experience-box {
     .desc {
-        margin: 2rem 0;
+        margin-bottom: 2.5rem;
         line-height: 1.5;
-        color: $dark;
+        font-size: 1.1rem;
     }
 
     .summary {
         h4 { 
-            margin-bottom: 0.7rem;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
         }
 
         .item {
-            margin-bottom: 2rem;
+            margin-bottom: 2.5rem;
         }
     }
 }
 
+.quoto {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+}
 
+.quoto::before {
+    content: '';
+    display: block;
+    width: 3px;
+    height: calc(100% - 3px);
+    background-color: $black;
+    position: absolute;
+    left: 0;
+    top: 1.5px;
+}
 
+.underline {
+    position: relative;
+    display: inline-block;
+}
+
+.underline::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: $mint;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5%;
+    z-index: -1;
+}
+
+.check {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.check::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: $mint;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.check::after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 8px;
+    position: absolute;
+    left: 5px;
+    top: 8px;
+    transform: rotate(-45deg);
+    border: 5px solid $white;
+    border-top: none;
+    border-right: none;
+}
