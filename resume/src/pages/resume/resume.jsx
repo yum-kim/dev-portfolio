@@ -17,22 +17,30 @@ const Resume = () => {
                         <h2 className='main-title name'>김유미 입니다.</h2>
                     </div>
                     <div className='intro-profile'>
-                        <img src="/images/profile.jpg" alt=""/>
+                        <img src="/images/profile2.jpg" alt=""/>
                     </div>
                     <div className='intro-box'>
                         <p className='intro-text'><span className='bold'>3년 차 Web front-end 개발자</span>로 프로젝트 초기 기획 단계부터 배포 후 서비스 안정화 단계까지 참여해 본 경험이 있습니다.</p>
                         <p className='intro-text'>웹 퍼블리셔로 일을 시작했고, 이후 프론트 개발자로 업무를 확장하며 필요한 자질들을 꾸준히 쌓아왔습니다.</p>
                         <p className='intro-text'><span className='bold'>최적의 사용성을 고려한 UI 구현</span>을 좋아합니다.</p>
                     </div>
-                    <button className='btn-primary btn-40'>
-                        <a href="https://github.com/yum-kim" target="_blank">Github</a>
-                    </button>
+                    <div className="intro-btn">
+                        <button className='btn-primary btn-40'>
+                            <a href="https://github.com/yum-kim" target="_blank">Github</a>
+                        </button>
+                        <button className='btn-primary btn-40'>
+                            <a href="https://reliable-waiter-1b0.notion.site/Dev-Study-Note-964f900745444db0bf386f75291f28d1" target="_blank">Notion</a>
+                        </button>
+                    </div>
                 </div>
             </article>
 
             {/* 경력 */}
             <article className='box'>
+
+                <span className='english-title'>Experience</span>
                 <h2 className='main-title mb'>경력</h2>
+                
                 <div className='container'>
                     <div className='mb'>
                         <h3 className='secondary-main-title company mb'>TNH</h3>
@@ -105,7 +113,7 @@ const Resume = () => {
                             </li>
                             <li className='item'>
                                 <h4 className='quoto'>투입 인원</h4>
-                                <p>2명 (Front-end 1명, Back-end 1명)</p>
+                                <p>2명 (Front-end: 1명, Back-end: 1명)</p>
                             </li>
                         </ul>
                     </div>
@@ -115,6 +123,7 @@ const Resume = () => {
 
             {/* 기술 */}
             <article className='box'>
+                <span className='english-title'>Skills</span>
                 <h2 className='main-title mb'>기술</h2>
                 <div className='container'>
                     {/* <h3 className='sub-title quoto'>HTML / CSS</h3> */}
@@ -148,6 +157,7 @@ const Resume = () => {
 
             {/* 협업 */}
             <article className='box'>
+                <span className='english-title'>Cooperation</span>
                 <h2 className='main-title mb'>협업</h2>
                 <div className='container'>
                     {/* <span className='additional'>기획 및 디자인에서 의도하는 부분에 대해 존중하며 충분한 협업을 통해 이를 구현하기 위해 노력합니다.</span> */}
@@ -160,6 +170,7 @@ const Resume = () => {
 
             {/* 교육사항 */}
             <article className='box'>
+                <span className='english-title'>Education</span>
                 <h2 className='main-title mb'>교육사항</h2>
                 <div className='container'>
                     <ul>
@@ -173,6 +184,7 @@ const Resume = () => {
 
             {/* 자격사항 */}
             <article className='box'>
+                <span className='english-title'>Qualifications</span>
                 <h2 className='main-title mb'>자격사항</h2>
                 <div className='container'>
                     {/* <h3 className='sub-title quoto'></h3> */}

@@ -30,6 +30,12 @@
     @include text-style-secondary-sub-title();
 }
 
+.english-title {
+    font-size: 1.3rem;
+    color: $tertiary;
+    font-weight: 500;
+}
+
 .box {
     padding: 40px 0;
 }
@@ -56,15 +62,27 @@
         img {
             width: 100%;
             border-radius: 50%;
+            padding: 10px;
+            border: 1px solid #b6b6b6;
         }
     }
     
     .intro-box {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
 
         .intro-text {
             font-size: 1.4rem;
             line-height: 2.2rem;
+        }
+    }
+
+    .intro-btn {
+        @include flexbox(start, center);
+        
+        button {
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
         }
     }
 }
