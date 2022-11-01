@@ -40,13 +40,32 @@
     }
 }
 
-.intro-box {
-    padding-top: 50px;
-    padding-bottom: 30px;
+.intro {
+    margin-bottom: 3rem;
 
-    .intro-text {
-        font-size: 1.2rem;
-        line-height: 1.5;
+    .intro-title {
+        padding: 3rem 0;
+    }
+    
+    .intro-profile {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 4rem;
+        border-radius: 50%;
+
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+    
+    .intro-box {
+        margin-bottom: 2rem;
+
+        .intro-text {
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+        }
     }
 }
 
@@ -185,7 +204,6 @@
 
 .check {
     position: relative;
-    display: inline-block;
     margin-bottom: 1.5rem;
 }
 

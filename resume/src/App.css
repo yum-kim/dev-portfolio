@@ -1,14 +1,10 @@
 @charset "utf-8";
 
-.App {
-  /* height: 100vh; */
-}
-
 /* desktop */
 @media screen and (min-width: 1024px) {
   .App {
     width: 1020px;
-    padding: 20px;
+    padding: 0 20px;
     margin: 0 auto;
   }
 }
@@ -16,6 +12,6 @@
 /* tablet, mobile */
 @media screen and (max-width: 1023px) {
   .App {
-    padding: 10px;
+    padding: 0 10px;
   }
 }

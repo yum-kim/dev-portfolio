@@ -9,18 +9,25 @@ const Resume = () => {
         <AppLayout>
             
             {/* 소개 */}
-            <article className='box mb'>
-                <h2 className='secondary-main-title'>안녕하세요.</h2>
-                <h2 className='main-title underline'>Front-end Developer</h2>
-                <h2 className='main-title name'>김유미 입니다.</h2>
-                <div className='intro-box'>
-                    <p className='intro-text'><span className='bold'>3년 차 Web front-end 개발자</span>로 프로젝트 초기 기획 단계부터 배포 후 서비스 안정화 단계까지 참여해 본 경험이 있습니다.</p>
-                    <p className='intro-text'>웹 퍼블리셔로 일을 시작했고, 이후 프론트 개발자로 업무를 확장하며 필요한 자질들을 꾸준히 쌓아왔습니다.</p>
-                    <p className='intro-text'><span className='bold'>최적의 사용성을 고려한 UI 구현</span>을 좋아합니다.</p>
+            <article className='box intro'>
+                <div class="">
+                    <div class="intro-title">
+                        <h2 className='secondary-main-title'>안녕하세요.</h2>
+                        <h2 className='main-title underline'>Front-end Developer</h2>
+                        <h2 className='main-title name'>김유미 입니다.</h2>
+                    </div>
+                    <div className='intro-profile'>
+                        <img src="/images/profile.jpg" alt=""/>
+                    </div>
+                    <div className='intro-box'>
+                        <p className='intro-text'><span className='bold'>3년 차 Web front-end 개발자</span>로 프로젝트 초기 기획 단계부터 배포 후 서비스 안정화 단계까지 참여해 본 경험이 있습니다.</p>
+                        <p className='intro-text'>웹 퍼블리셔로 일을 시작했고, 이후 프론트 개발자로 업무를 확장하며 필요한 자질들을 꾸준히 쌓아왔습니다.</p>
+                        <p className='intro-text'><span className='bold'>최적의 사용성을 고려한 UI 구현</span>을 좋아합니다.</p>
+                    </div>
+                    <button className='btn-primary btn-40'>
+                        <a href="https://github.com/yum-kim" target="_blank">Github</a>
+                    </button>
                 </div>
-                <button className='btn-primary btn-40'>
-                    <a href="https://github.com/yum-kim" target="_blank">Github</a>
-                </button>
             </article>
 
             {/* 경력 */}
@@ -112,7 +119,7 @@ const Resume = () => {
                 <div className='container'>
                     {/* <h3 className='sub-title quoto'>HTML / CSS</h3> */}
                     <h3 className='sub-title check'>HTML / CSS</h3>
-                    <p className='item bullet'>Semantic Markup 및 HTML의 구조를 한 눈에 파악할 수 있도록 노력합니다.</p>
+                    <p className='item bullet'>Semantic한 Markup을 지향하며, HTML의 구조를 한 눈에 파악할 수 있도록 합니다.</p>
                     <p className='item bullet'>웹 표준을 준수하며, 접근성 높은 웹 페이지를 구현합니다.</p>
                     <p className='item bullet'>Chrome, Safari, Firefox 등 여러 브라우저에서 동일한 화면을 볼 수 있도록 크로스 브라우징 작업이 가능합니다.</p>
                     <p className='item bullet'>반응형 웹을 구현할 수 있습니다.</p>
@@ -121,8 +128,8 @@ const Resume = () => {
                 <div className="container">
                     <h3 className='sub-title check'>JavaScript</h3>
                     <p className='item bullet'>ES6 문법 사용에 익숙합니다.</p>
-                    <p className='item bullet'>JavaScript의 동작원리를 이해하고 이를 바탕으로 코드를 작성하기 위해 노력합니다.</p>
-                    <p className='item bullet'>서버 API 통신 작업과 이에 따른 비동기 처리 작업에 익숙합니다.</p>
+                    <p className='item bullet'>JavaScript의 동작원리를 이해하고 이를 바탕으로 코드를 작성합니다.</p>
+                    <p className='item bullet'>서버 API 통신과 이에 따른 비동기 처리 작업에 익숙합니다.</p>
                     <p className='item bullet'>jQuery 라이브러리를 사용한 코드 작성에 익숙합니다.</p>
                     <p className='item bullet'>브라우저의 렌더링 원리를 이해하고 최적화된 프론트 코드 작성을 위해 노력합니다.</p>
                 </div>
