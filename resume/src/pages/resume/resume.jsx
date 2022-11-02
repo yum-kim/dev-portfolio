@@ -1,9 +1,10 @@
 import React from 'react';
 import AppLayout from '../../components/AppLayout';
 import './resume.scss';
+import { useState } from 'react';
 
 const Resume = () => {
-
+    // const [isProfileHover, setIsProfileHover] = useState(false);
 
     return (
         <AppLayout>
@@ -14,10 +15,11 @@ const Resume = () => {
                     <div class="intro-title">
                         <h2 className='secondary-main-title'>안녕하세요.</h2>
                         <h2 className='main-title underline'>Front-end Developer</h2>
-                        <h2 className='main-title name'>김유미 입니다.</h2>
+                        <h2 className='main-title name' onMouseEnter='replace'>김유미입니다.</h2>
                     </div>
                     <div className='intro-profile'>
-                        <img src="/images/profile2.jpg" alt=""/>
+                        {/* <img src={isProfileHover ? "/images/profile.jpg" : "/images/profile2.jpg"} alt="profile" onMouseEnter={() => setIsProfileHover(true)} onMouseOut={() => setIsProfileHover(false)} /> */}
+                        <div></div>
                     </div>
                     <div className='intro-box'>
                         <p className='intro-text'><span className='bold'>3년 차 Web front-end 개발자</span>로 프로젝트 초기 기획 단계부터 배포 후 서비스 안정화 단계까지 참여해 본 경험이 있습니다.</p>
@@ -26,10 +28,11 @@ const Resume = () => {
                     </div>
                     <div className="intro-btn">
                         <button className='btn-primary btn-40'>
-                            <a href="https://github.com/yum-kim" target="_blank">Github</a>
+                            <a href="https://github.com/yum-kim" target="_blank"><i class="bi bi-github"></i>Github</a>
                         </button>
                         <button className='btn-primary btn-40'>
-                            <a href="https://reliable-waiter-1b0.notion.site/Dev-Study-Note-964f900745444db0bf386f75291f28d1" target="_blank">Notion</a>
+                            <a href="https://reliable-waiter-1b0.notion.site/Dev-Study-Note-964f900745444db0bf386f75291f28d1" target="_blank">
+                                <i class="bi bi-pencil-fill"></i>Notion</a>
                         </button>
                     </div>
                 </div>
