@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from './header';
 
 const AppLayout = ({ children }) => {
     return (
         <>
-            <header></header>
+            <Header></Header>
             <main>
                 {children}
             </main>
