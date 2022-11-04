@@ -6,7 +6,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Resume />}></Route>
         </Routes>
