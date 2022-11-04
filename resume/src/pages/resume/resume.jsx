@@ -48,7 +48,7 @@ const Resume = () => {
                 <div className='container'>
                     <div className='mb'>
                         <h3 className='secondary-main-title company mb'>TNH</h3>
-                        <h4 className='secondary-sub-title'>Web Front-end Developer/ publisher</h4>
+                        <h4 className='secondary-sub-title'>Web Front-end Developer</h4>
                         <span className='additional'>2020.06 - 2022.09 (2년 4개월)</span>   
                     </div>
                     <ul>
