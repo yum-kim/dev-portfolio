@@ -22,9 +22,10 @@ const Resume = () => {
                         <div></div>
                     </div>
                     <div className='intro-box'>
-                        <p className='intro-text'><span className='bold'>3년 차 Web front-end 개발자</span>로 프로젝트 초기 기획 단계부터 배포 후 서비스 안정화 단계까지 참여해 본 경험이 있습니다.</p>
-                        <p className='intro-text'>웹 퍼블리셔로 일을 시작했고, 이후 프론트 개발자로 업무를 확장하며 필요한 자질들을 꾸준히 쌓아왔습니다.</p>
-                        <p className='intro-text'><span className='bold'>최적의 사용성을 고려한 UI 구현</span>을 좋아합니다.</p>
+                        <p className='intro-text'><span className='bold'>3년 차 웹 프론트엔드 개발자</span>로 프로젝트 초기 기획 단계부터 배포 후 서비스 안정화 단계까지 참여해 본 경험이 있습니다.</p>
+                        <p className='intro-text'>웹 퍼블리셔로 일을 시작했기 때문에, <span className='bold'>UI 구현</span>에 특히 강점을 가지고 있습니다.</p>
+                        <p className='intro-text'>프론트 개발자로 업무를 확장하면서 필요한 역량들에 대해 꾸준히 스터디를 해왔고, 현재는 React를 공부 중에 있습니다.</p>
+                        <p className='intro-text'>보기 좋은 UI에 사용하기 좋은 기능을 구현하는 것을 좋아합니다.</p>
                     </div>
                     <div className="intro-btn">
                         <button className='btn-primary btn-40'>
@@ -53,36 +54,37 @@ const Resume = () => {
                     <ul>
                         <li className='item bullet'>양/한방 병의원급 EMR(전자차트) 프로그램 개발, KIMES 2022 국제 의료기기 병원 설비 전시회 출품</li>
                         <li className='item bullet'>프로젝트 시작 단계부터 웹 퍼블리셔로 참여하여 프로그램 전체 화면 60% 이상의 UI를 구현</li>
-                        <li className='item bullet'>버튼, 폼, 탭 등 공통 디자인의 UI 컴포넌트화를 통해 프론트 개발 속도 향상에 기여</li>
-                        <li className='item bullet'>실시간 SR 처리 및 매주 기능 건의/수정 사항 리뷰를 통하여 서비스 품질 개선</li>
+                        <li className='item bullet'>버튼, 폼, 탭 등 공통 UI에 대해 CSS 컴포넌트화를 통해 개발 속도 향상에 기여</li>
+                        <li className='item bullet'>실시간 SR 처리 및 매주 기능 건의/수정 사항 리뷰를 통하여 서비스 품질 개선 경험</li>
                     </ul>
                 </div>
 
                 <div className="container">
                     <h3 className='experience-title'><span class="count">01</span>양/한방 협진병원 EMR 프로그램 (Medi-C) 개발</h3>
-                    {/* <span className='experience-desc-title'>양/한방 협진병원에서 사용하는 전자차트 프로그램</span> */}
                     <div class='experience-box'>
                         <div className='desc'>
-                            <p>양/한방 협진병원의 외래/입원을 모두 다뤄야하는 규모의 전자차트 프로그램으로 약 2년여 동안 개발이 진행됐고, 배포 과정에도 함께할 수 있었습니다.</p>
+                            <p>양/한방 협진병원의 외래/입원을 모두 다뤄야하는 규모의 전자차트 프로그램을 개발하였습니다.</p>
+                            <p>퍼블리싱과 프론트 개발을 담당해 약 2년동안 개발이 진행됐고, 배포 과정에도 함께할 수 있었습니다.</p>
                             <p>기획 및 개발 전 과정에 참여하면서 사용자에게 가기까지 프로세스에 대해 배워볼 수 있는 좋은 기회였습니다.</p>
-                            <p>입사 초기에는 UI 구현만 담당하다가 곧 프론트 개발로 업무를 확장하면서 개인적으로도 큰 성장을 이루었고 회사에도 기여할 수 있었습니다.</p>
+                            <p>입사 초기에는 UI 구현만 담당하다가 곧 프론트 개발로 업무를 확장하면서 개인적으로도 큰 성장을 이루었고,<br></br>프로젝트 개발 속도 향상 및 프론트 개발자로서의 역량을 인정받으며 회사에도 기여할 수 있었습니다.</p>
                         </div>
                         <ul className='summary'>
                             <li className='item'>
                                 <h4 className='quoto'>기간</h4>
-                                <p>2020.06 - 2022.09 (2개월 4개월)</p>
+                                <p>2020.06 - 2022.09 (2년 4개월)</p>
                             </li>
                             <li className='item'>
-                                <h4 className='quoto'>개발 언어</h4>
-                                <p>JavaScript(ES6) , HTML5, CSS, jQuery / MySQL, SVN</p>
+                                <h4 className='quoto'>개발 언어 / 도구</h4>
+                                <p>HTML5, CSS, JavaScript(ES6), jQuery / MySQL / SVN / Slack, Jira</p>
                             </li>
                             <li className='item'>
                                 <h4 className='quoto'>역할 / 담당</h4>
-                                <p className='bullet'>HTML5, CSS3, javaScript 기반 jQuery 사용 UI 구현</p>
-                                <p className='bullet'>미디어쿼리를 사용한 반응형 웹 디자인 구현</p>
-                                <p className='bullet'>양방 검사 오더에 대해 검체검사 위탁기관과의 검체검사 연동 작업 (랩지노믹스, Sqlab, 이원의료재단, Gclab)</p>
-                                <p className='bullet'>건강보험, 자동차보험, 산재보험의 청구화면 개발 및 보험 청구 프로그램 연동</p>
+                                <p className='bullet'>HTML5, CSS3, javaScript(ES6) 기반 jQuery 사용 UI 구현</p>
+                                <p className='bullet'>CSS 미디어쿼리를 사용한 반응형 웹 구현</p>
+                                <p className="bullet">Axios를 사용해 백엔드 개발자와 REST API 통신 및 데이터 바인딩 작업</p>
                                 <p className='bullet'>Critical Rendering Path를 고려한 렌더 최적화 코드 작성</p>
+                                <p className='bullet'>건강보험, 자동차보험, 산재보험의 청구화면 개발 및 C# 개발자와 보험 청구 프로그램 연동 작업</p>
+                                <p className='bullet'>외부 검체검사 위탁기관과의 검체검사 연동 작업 (랩지노믹스, Sqlab, 이원의료재단, Gclab)</p>
                             </li>
                             <li className='item'>
                                 <h4 className='quoto'>투입 인원</h4>
@@ -94,11 +96,11 @@ const Resume = () => {
 
                 <div className="container">
                     <h3 className='experience-title'><span class="count">02</span>Medi-C 어드민 페이지 개발</h3>
-                    {/* <span className='experience-desc-title'>병원(고객)들을 관리하기 위한 페이지</span> */}
                     <div class='experience-box'>
                         <div className='desc'>
-                            <p>양/한방 병원 고객들을 관리하기 위한 페이지로 고객들의 세부 정보 혹은, 고객 별 외부 API와 연결될 정보 등 다양한 정보를 조회, 수정, 삭제 할 수 있는 관리자 페이지로 한달 여 시간을 기간으로 두어 작업이 진행되었습니다.</p>
-                            <p>백엔드 개발자와 REST기반의 API 통신으로 데이터를 주고 받았습니다.</p>
+                            <p>프로그램 사용 고객(병원)들을 관리하기 위한 어드민 페이지를 개발하였습니다.</p>
+                            <p>고객들의 세부 정보 혹은 고객별 외부 API와 연결될 정보 등 다양한 정보를 조회, 수정, 삭제 할 수 있는 관리자 페이지입니다.</p>
+                            <p>백엔드 개발자 1명과 협업하여 2인 프로젝트로 진행되었습니다.</p>
                         </div>
                         <ul className='summary'>
                             <li className='item'>
@@ -106,13 +108,14 @@ const Resume = () => {
                                 <p>2022.07 - 2022.07 (1개월)</p>
                             </li>
                             <li className='item'>
-                                <h4 className='quoto'>개발 언어</h4>
-                                <p>JavaScript(ES6), HTML5, CSS, jQuery / SVN</p>
+                                <h4 className='quoto'>개발 언어 / 도구</h4>
+                                <p>HTML5, CSS, JavaScript(ES6), jQuery / SVN / Slack, Jira</p>
                             </li>
                             <li className='item'>
                                 <h4 className='quoto'>역할 / 담당</h4>
-                                <p className='bullet'>front-end 투입 인원 1명으로 진행된 프로젝트로 메인 프론트 담당</p>
-                                <p className='bullet'>페이지 디자인부터 프론트 개발까지 앞 단에서 필요한 작업은 전부 혼자 진행</p>
+                                <p className='bullet'>Front-end 투입 인원 1명으로 진행된 프로젝트로 메인 프론트 담당</p>
+                                <p className='bullet'>페이지 디자인부터 퍼블리싱, 프론트 개발까지 앞 단에서 필요한 작업은 전부 혼자 진행</p>
+                                <p className="bullet">Axios를 사용해 백엔드 개발자와 REST API 통신 및 데이터 바인딩 작업</p>
                             </li>
                             <li className='item'>
                                 <h4 className='quoto'>투입 인원</h4>
@@ -129,13 +132,12 @@ const Resume = () => {
                 <span className='english-title'>Skills</span>
                 <h2 className='main-title mb'>기술</h2>
                 <div className='container'>
-                    {/* <h3 className='sub-title quoto'>HTML / CSS</h3> */}
                     <h3 className='sub-title check'>HTML / CSS</h3>
                     <p className='item bullet'>Semantic한 Markup을 지향하며, HTML의 구조를 한 눈에 파악할 수 있도록 합니다.</p>
                     <p className='item bullet'>웹 표준을 준수하며, 접근성 높은 웹 페이지를 구현합니다.</p>
                     <p className='item bullet'>Chrome, Safari, Firefox 등 여러 브라우저에서 동일한 화면을 볼 수 있도록 크로스 브라우징 작업이 가능합니다.</p>
                     <p className='item bullet'>반응형 웹을 구현할 수 있습니다.</p>
-                    <p className='item bullet'>SCSS, Post CSS, Styled-component 를 사용해 효율적인 CSS 코드를 작성할 수 있습니다.</p>
+                    <p className='item bullet'>SCSS, Post CSS, Styled-component를 사용해 스타일링을 적용할 수 있습니다.</p>
                 </div>
                 <div className="container">
                     <h3 className='sub-title check'>JavaScript</h3>
@@ -147,11 +149,11 @@ const Resume = () => {
                 </div>
                 <div className="container">
                     <h3 className='sub-title check'>SPA Framework</h3>
-                    <p className='item bullet'>실제 프로젝트에서 SPA Framework를 적용해 볼 기회는 없었으나, 관심이 높아 기존 jQuery로 작성된 실무 프로젝트 코드를 스스로 React로 리팩토링 해 본 경험이 있습니다.</p>
+                    <p className='item bullet'>실제 프로젝트에서 SPA Framework를 적용해 볼 기회는 없었으나, <br></br>관심이 높아 기존 jQuery로 작성된 실무 프로젝트 코드를 스스로 React로 리팩토링 해 본 경험이 있습니다.</p>
                     <p className='item bullet'>현재 React와 Next.js를 공부 중에 있습니다.</p>
                 </div>
                 <div className="container">
-                    <h3 className='sub-title check'>Library</h3>
+                    <h3 className='sub-title check'>Etc</h3>
                     <p className='item bullet'>npm</p>
                     <p className='item bullet'>postman</p>
                     <p className='item bullet'>Bootstrap, Ant design</p>
