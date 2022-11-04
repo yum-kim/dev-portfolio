@@ -60,10 +60,10 @@ const Resume = () => {
                 </div>
 
                 <div className="container">
-                    <h3 className='experience-title'><span class="count">01</span>양/한방 협진병원 EMR 프로그램 (Medi-C) 개발</h3>
+                    <h3 className='experience-title'><span class="count">01</span>양・한방 협진병원 EMR 프로그램 (Medi-C) 개발</h3>
                     <div class='experience-box'>
                         <div className='desc'>
-                            <p>양/한방 협진병원의 외래/입원을 모두 다뤄야하는 규모의 전자차트 프로그램을 개발하였습니다.</p>
+                            <p>양・한방 협진병원의 외래/입원을 모두 다뤄야하는 규모의 전자차트 프로그램을 개발하였습니다.</p>
                             <p>퍼블리싱과 프론트 개발을 담당해 약 2년동안 개발이 진행됐고, 배포 과정에도 함께할 수 있었습니다.</p>
                             <p>기획 및 개발 전 과정에 참여하면서 사용자에게 가기까지 프로세스에 대해 배워볼 수 있는 좋은 기회였습니다.</p>
                             <p>입사 초기에는 UI 구현만 담당하다가 곧 프론트 개발로 업무를 확장하면서 개인적으로도 큰 성장을 이루었고,<br></br>프로젝트 개발 속도 향상 및 프론트 개발자로서의 역량을 인정받으며 회사에도 기여할 수 있었습니다.</p>
@@ -75,7 +75,7 @@ const Resume = () => {
                             </li>
                             <li className='item'>
                                 <h4 className='quoto'>개발 언어 / 도구</h4>
-                                <p>HTML5, CSS, JavaScript(ES6), jQuery / MySQL / SVN / Slack, Jira</p>
+                                <p>HTML5, CSS, JavaScript(ES6), jQuery / MySQL / SVN / Slack, Jira, Zeplin</p>
                             </li>
                             <li className='item'>
                                 <h4 className='quoto'>역할 / 담당</h4>
