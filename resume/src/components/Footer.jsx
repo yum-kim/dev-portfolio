@@ -28,7 +28,7 @@ const Header = () => {
             <IconWrapper>
                 <Icon className='bi bi-envelope-fill' />
                 <span>
-                    <a href="mailto:dwkimym93@gmail.com" target="_top">dwkimym93@gmail.com</a>
+                    <a href="mailto:dwkimym93@gmail.com" target="_blank" rel="noreferrer noopener">dwkimym93@gmail.com</a>
                 </span>
             </IconWrapper>
             <IconWrapper>

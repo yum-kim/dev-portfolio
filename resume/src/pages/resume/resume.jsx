@@ -22,10 +22,11 @@ const Resume = () => {
                         <div></div>
                     </div>
                     <div className='intro-box'>
-                        <p className='intro-text'><span className='bold'>3년 차 웹 프론트엔드 개발자</span>로 프로젝트 초기 기획 단계부터 배포 후 서비스 안정화 단계까지 참여해 본 경험이 있습니다.</p>
-                        <p className='intro-text'>웹 퍼블리셔로 일을 시작했기 때문에, <span className='bold'>UI 구현</span>에 특히 강점을 가지고 있습니다.</p>
-                        <p className='intro-text'>프론트 개발자로 업무를 확장하면서 필요한 역량들에 대해 꾸준히 스터디를 해왔고, 현재는 React를 공부 중에 있습니다.</p>
-                        <p className='intro-text'>보기 좋은 UI에 사용하기 좋은 기능을 구현하는 것을 좋아합니다.</p>
+                        <p className='intro-text'><span className='bold'>3년차 웹 프론트엔드 개발자</span>로 프로젝트 초기 기획 단계부터 배포 후 서비스 안정화 단계까지 참여해 본 경험이 있습니다.</p>
+                        <p className="intro-text">딱 떨어지는 보기 좋은 UI에 사용하기 좋은 기능을 구현하는 것을 즐깁니다. </p>
+                        <p className='intro-text'>웹 퍼블리셔로 일을 시작했기 때문에, <span className='bold'>UI 구현</span>에 강점 또한 가지고 있습니다.</p>
+                        <p className="intro-text">지속적으로 사내 스터디를 해왔으며, 개인적인 학습을 통해서 부족한 부분을 개선하고 새로운 것들을 알아가는 것을 좋아합니다.</p>
+                        <p className="intro-text">더 전문적인 프론트 개발자로 성장하겠습니다.</p>
                     </div>
                     <div className="intro-btn">
                         <button className='btn-primary btn-40'>
