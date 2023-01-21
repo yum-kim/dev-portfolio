@@ -1,6 +1,12 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 
 const Intro = () => {
+    useEffect(() => { 
+        const hoverImg = new Image();
+        hoverImg.src = process.env.PUBLIC_URL + '/images/profile.jpg';
+    }, []);
+
     return (
         <article className='box intro'>
             <div>
@@ -10,8 +16,9 @@ const Intro = () => {
                     <h2 className='main-title name' onMouseEnter='replace'>김유미입니다.</h2>
                 </div>
                 <div className='intro-profile'>
-                    {/* <img src={isProfileHover ? "/images/profile.jpg" : "/images/profile2.jpg"} alt="profile" onMouseEnter={() => setIsProfileHover(true)} onMouseOut={() => setIsProfileHover(false)} /> */}
-                    <div></div>
+                    <div>
+                        {/* <img src={process.env.PUBLIC_URL + `${isHover ? "/images/profile.jpg" : "/images/profile2.jpg"}`} alt="profile" onMouseOver={onMouseOverEvent} /> */}
+                    </div>
                 </div>
                 <div className='intro-box'>
                     <p className='intro-text'><span className='bold'>3년차 웹 프론트엔드 개발자</span>로 프로젝트 초기 기획 단계부터 배포 후 서비스 안정화 단계까지 참여해 본 경험이 있습니다.</p>
