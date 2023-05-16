@@ -8,9 +8,9 @@ const Cooperation = () => {
             <div className='container'>
                 {/* <span className='additional'>기획 및 디자인에서 의도하는 부분에 대해 존중하며 충분한 협업을 통해 이를 구현하기 위해 노력합니다.</span> */}
                 <p className='item bullet'>Slack</p>
-                <p className='item bullet'>Jira, Notion, Google Drive</p>
-                <p className='item bullet'>SVN</p>
-                <p className='item bullet'>Zeplin</p>
+                <p className='item bullet'>Jira, Notion, Confluence, Google Drive</p>
+                <p className='item bullet'>Github, SVN</p>
+                <p className='item bullet'>Zeplin, Figma</p>
             </div>
         </article>
     );

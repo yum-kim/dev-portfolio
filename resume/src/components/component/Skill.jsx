@@ -20,15 +20,16 @@ const Skill = () => {
                 <p className='item bullet'>서버 API 통신과 이에 따른 비동기 처리 작업에 익숙합니다.</p>
                 <p className='item bullet'>jQuery 라이브러리를 사용한 코드 작성에 익숙합니다.</p>
                 <p className='item bullet'>브라우저의 렌더링 원리를 이해하고 최적화된 프론트 코드 작성을 위해 노력합니다.</p>
+                <p className='item bullet'>Babel을 사용하여 ES5 이하 문법으로 작성된 코드를 변환할 수 있습니다.</p>
             </div>
             <div className="container">
                 <h3 className='sub-title check'>SPA Framework</h3>
-                <p className='item bullet'>실제 프로젝트에서 SPA Framework를 적용해 볼 기회는 없었으나, <br></br>관심이 높아 기존 jQuery로 작성된 실무 프로젝트 코드를 스스로 React로 리팩토링 해 본 경험이 있습니다.</p>
-                <p className='item bullet'>현재 React와 Next.js를 공부 중에 있습니다.</p>
+                <p className='item bullet'>실제 프로젝트에서 SPA Framework를 적용해 볼 기회는 없었으나, <br></br>관심이 높아 기존 jQuery로 작성된 실무 프로젝트 코드를 스스로 React로 마이그레이션 해 본 경험이 있습니다.</p>
             </div>
             <div className="container">
                 <h3 className='sub-title check'>Etc</h3>
                 <p className='item bullet'>npm</p>
+                <p className='item bullet'>pm2</p>
                 <p className='item bullet'>postman</p>
                 <p className='item bullet'>Bootstrap, Ant design</p>
             </div>
