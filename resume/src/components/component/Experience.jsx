@@ -9,20 +9,21 @@ const Experience = () => {
             <div className='container'>
                 <div className='mb'>
                     <h3 className='secondary-main-title company mb'>STCLab</h3>
-                    <h4 className='secondary-sub-title'>Web Front-end Agent Developer</h4>
-                    <span className='additional'>2023.04 - 2023.05 (2개월)</span>   
+                    <h4 className='secondary-sub-title'>Web Agent Developer</h4>
+                    <span className='additional'>2023.04 - 2023.05 (2개월)</span>
                 </div>
                 <ul>
-                    <li className='item bullet'>국내 제1금융권 시장 점유율 98% 및 공공 서비스 트래픽 제어 솔루션 채택</li>
-                    <li className='item bullet'>솔루션을 통한 트래픽 제어 흐름을 숙지</li>
-                    <li className='item bullet'>애자일 Scrum방식을 통한 업무 진행 경험</li>
-                    <li className='item bullet'>배포 프로세스 경험 및 AWS S3, CloudFront를 통한 실배포</li>
+                    <li className='item bullet'>국내 제1금융권 시장 점유율 98% 및 공공 서비스 트래픽 제어 솔루션으로 채택된 서비스</li>
+                    <li className='item bullet'>솔루션을 통한 트래픽 제어 흐름 경험</li>
+                    <li className='item bullet'>PO 중심 조직으로서, 애자일 Scrum방식을 통한 Work Flow 경험</li>
+                    <li className='item bullet'>AWS S3, CloudFront를 통한 코드 배포</li>
                 </ul>
             </div>
             <div className="container">
                 <h3 className='experience-title'><span class="count">01</span>트래픽 제어 솔루션(NetFUNNEL) Web Agent 개발</h3>
                 <div class='experience-box'>
                     <div className='desc'>
+                        <p>PO 중심의 목적 조직으로 구성되었으며, 기획-디자인-개발-QA-배포에 이르는 전체 개발 프로세스를 경험했습니다.</p>
                         <p>대량의 트래픽 진입을 제어하여 고객사의 안정적인 서버 관리를 도와주는 솔루션 넷퍼넬의 핵심 기능인 Agent 코어 개발을 담당하였습니다.</p>
                     </div>
                     <ul className='summary'>
