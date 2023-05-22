@@ -130,7 +130,8 @@
 }
 
 .additional {
-    @include text-style-additional();
+    @include text-style-item();
+    margin-bottom: 2rem;
 }
 
 .experience-title {

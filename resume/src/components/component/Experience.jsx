@@ -5,6 +5,47 @@ const Experience = () => {
         <article className='box'>
             <span className='english-title'>Experience</span>
             <h2 className='main-title mb'>경력</h2>
+
+            <div className='container'>
+                <div className='mb'>
+                    <h3 className='secondary-main-title company mb'>STCLab</h3>
+                    <h4 className='secondary-sub-title'>Web Front-end Agent Developer</h4>
+                    <span className='additional'>2023.04 - 2023.05 (2개월)</span>   
+                </div>
+                <ul>
+                    <li className='item bullet'>국내 제1금융권 시장 점유율 98% 및 공공 서비스 트래픽 제어 솔루션 채택</li>
+                    <li className='item bullet'>솔루션을 통한 트래픽 제어 흐름을 숙지</li>
+                    <li className='item bullet'>애자일 Scrum방식을 통한 업무 진행 경험</li>
+                    <li className='item bullet'>배포 프로세스 경험 및 AWS S3, CloudFront를 통한 실배포</li>
+                </ul>
+            </div>
+            <div className="container">
+                <h3 className='experience-title'><span class="count">01</span>트래픽 제어 솔루션(NetFUNNEL) Web Agent 개발</h3>
+                <div class='experience-box'>
+                    <div className='desc'>
+                        <p>대량의 트래픽 진입을 제어하여 고객사의 안정적인 서버 관리를 도와주는 솔루션 넷퍼넬의 핵심 기능인 Agent 코어 개발을 담당하였습니다.</p>
+                    </div>
+                    <ul className='summary'>
+                        {/* <li className='item'>
+                            <h4 className='quoto'>기간</h4>
+                            <p>2023.04 - 2023.05 (2개월)</p>
+                        </li> */}
+                        <li className='item'>
+                            <h4 className='quoto'>개발 언어 / 도구</h4>
+                            <p>JavaScript(ES5,ES6) / AWS S3, CloudFront / Github / Figma / Slack, Jira, Confluence</p>
+                        </li>
+                        <li className='item'>
+                            <h4 className='quoto'>역할 / 담당</h4>
+                            <p className='bullet'>메인페이지의 진입 자체를 제어하는 사전 대기실(Pre-Waiting Room) 기능 개발</p>
+                            <p className='bullet'>Agent QA 환경 테스트를 위한 demo 웹 페이지 관리</p>
+                            <p className='bullet'>AWS S3와 CloudFront를 사용한 코드 배포</p>
+                            <p className='bullet'>webpack, babel을 사용한 ES6 환경 구축</p>
+                            <p className='bullet'>기존 코드의 이슈 대응 및 유지보수 작업</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
             <div className='container'>
                 <div className='mb'>
                     <h3 className='secondary-main-title company mb'>TNH</h3>
@@ -84,45 +125,6 @@ const Experience = () => {
                 </div>
             </div>
 
-            <div className='container'>
-                <div className='mb'>
-                    <h3 className='secondary-main-title company mb'>STCLab</h3>
-                    <h4 className='secondary-sub-title'>Web Front-end Agent Developer</h4>
-                    <span className='additional'>2023.04 - 2023.05 (2개월)</span>   
-                </div>
-                <ul>
-                    <li className='item bullet'>국내 제1금융권 시장 점유율 98% 및 공공 서비스 트래픽 제어 솔루션 채택</li>
-                    <li className='item bullet'>솔루션을 통한 트래픽 제어 흐름을 숙지</li>
-                    <li className='item bullet'>애자일 Scrum방식을 통한 업무 진행 경험</li>
-                    <li className='item bullet'>배포 프로세스 경험 및 AWS S3, CloudFront를 통한 실배포</li>
-                </ul>
-            </div>
-            <div className="container">
-                <h3 className='experience-title'><span class="count">01</span>트래픽 제어 솔루션(NetFUNNEL) Web Agent 개발</h3>
-                <div class='experience-box'>
-                    <div className='desc'>
-                        <p>대량의 트래픽 진입을 제어하여 고객사의 안정적인 서버 관리를 도와주는 솔루션 넷퍼넬의 핵심 기능인 Agent 코어 개발을 담당하였습니다.</p>
-                    </div>
-                    <ul className='summary'>
-                        {/* <li className='item'>
-                            <h4 className='quoto'>기간</h4>
-                            <p>2023.04 - 2023.05 (2개월)</p>
-                        </li> */}
-                        <li className='item'>
-                            <h4 className='quoto'>개발 언어 / 도구</h4>
-                            <p>JavaScript(ES5,ES6) / AWS S3, CloudFront / Github / Figma / Slack, Jira, Confluence</p>
-                        </li>
-                        <li className='item'>
-                            <h4 className='quoto'>역할 / 담당</h4>
-                            <p className='bullet'>메인페이지의 진입 자체를 제어하는 사전 대기실(Pre-Waiting Room) 기능 개발</p>
-                            <p className='bullet'>Agent QA 환경 테스트를 위한 demo 웹 페이지 관리</p>
-                            <p className='bullet'>AWS S3와 CloudFront를 사용한 코드 배포</p>
-                            <p className='bullet'>webpack, babel을 사용한 ES6 환경 구축</p>
-                            <p className='bullet'>기존 코드의 이슈 대응 및 유지보수 작업</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
 
         </article>
     );
