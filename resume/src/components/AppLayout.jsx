@@ -9,7 +9,7 @@ const AppLayout = ({ children }) => {
             <main>
                 {children}
             </main>
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 };

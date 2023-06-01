@@ -26,14 +26,14 @@ const Header = () => {
     return (
         <FooterWrapper>
             <IconWrapper>
-                {/* <Icon className='bi bi-envelope-fill' />
+                <Icon className='bi bi-envelope-fill' />
                 <span>
                     <a href="mailto:dwkimym93@gmail.com" target="_blank" rel="noreferrer noopener">dwkimym93@gmail.com</a>
-                </span> */}
+                </span>
             </IconWrapper>
             <IconWrapper>
-                {/* <Icon className='bi bi-telephone-fill' />
-                <span>010-4323-2191</span> */}
+                <Icon className='bi bi-telephone-fill' />
+                <span>010-4323-2191</span>
             </IconWrapper>
         </FooterWrapper>
     );
