@@ -7,6 +7,7 @@ import Skill from '../../components/component/Skill';
 import Cooperation from '../../components/component/Cooperation';
 import Education from '../../components/component/Education';
 import Qualification from '../../components/component/Qualification';
+import Project from '../../components/component/Project';
 
 const Resume = () => {
     return (
@@ -18,6 +19,9 @@ const Resume = () => {
             {/* 경력 */}
             <Experience />
 
+            {/* 프로젝트 */}
+            <Project />
+            
             {/* 기술 */}
             <Skill />
 

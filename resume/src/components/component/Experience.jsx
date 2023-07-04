@@ -5,7 +5,6 @@ const Experience = () => {
         <article className='box'>
             <span className='english-title'>Experience</span>
             <h2 className='main-title mb'>경력</h2>
-
             <div className='container'>
                 <div className='mb'>
                     <h3 className='secondary-main-title company mb'>STCLab</h3>
@@ -24,7 +23,7 @@ const Experience = () => {
                 <div class='experience-box'>
                     <div className='desc'>
                         <p>PO 중심의 목적 조직으로 구성되었으며, 기획-디자인-개발-QA-배포에 이르는 전체 개발 프로세스를 경험했습니다.</p>
-                        <p>대량의 트래픽 진입을 제어하여 고객사의 안정적인 서버 관리를 도와주는 솔루션 넷퍼넬의 핵심 기능인 Agent 코어 개발을 담당하였습니다.</p>
+                        <p>대량의 트래픽 진입을 제어하여 고객사의 안정적인 서버 관리를 도와주는 솔루션 넷퍼넬의 핵심 기능인 Agent 비즈니스 로직 개발을 담당하였습니다.</p>
                     </div>
                     <ul className='summary'>
                         {/* <li className='item'>
@@ -33,12 +32,12 @@ const Experience = () => {
                         </li> */}
                         <li className='item'>
                             <h4 className='quoto'>개발 언어 / 도구</h4>
-                            <p>JavaScript(ES5,ES6) / AWS S3, CloudFront / Github / Figma / Slack, Jira, Confluence</p>
+                            <p>JavaScript(ES5,ES6) / AWS S3, CloudFront / Github / Figma / Slack, Jira, Confluence, Google Drive</p>
                         </li>
                         <li className='item'>
                             <h4 className='quoto'>역할 / 담당</h4>
                             <p className='bullet'>메인페이지의 진입 자체를 제어하는 사전 대기실(Pre-Waiting Room) 기능 개발</p>
-                            <p className='bullet'>Agent QA 환경 테스트를 위한 demo 웹 페이지 관리</p>
+                            <p className='bullet'>Agent QA 환경 테스트를 위한 demo 웹 페이지 관리(pm2 사용)</p>
                             <p className='bullet'>AWS S3와 CloudFront를 사용한 코드 배포</p>
                             <p className='bullet'>webpack, babel을 사용한 ES6 환경 구축</p>
                             <p className='bullet'>기존 코드의 이슈 대응 및 유지보수 작업</p>
@@ -110,11 +109,12 @@ const Experience = () => {
                         </li>
                         <li className='item'>
                             <h4 className='quoto'>개발 언어 / 도구</h4>
-                            <p>HTML5, CSS, JavaScript(ES6), jQuery / SVN / Slack, Jira</p>
+                            <p>HTML5, CSS, JavaScript(ES6), jQuery, React / SVN / Slack, Jira</p>
                         </li>
                         <li className='item'>
                             <h4 className='quoto'>역할 / 담당</h4>
                             <p className='bullet'>Front-end 투입 인원 1명으로 진행된 프로젝트로 메인 프론트 담당</p>
+                            <p className='bullet'>기존 jQuery 개발환경에서 React를 프로젝트에 적용</p>
                             <p className='bullet'>페이지 디자인부터 퍼블리싱, 프론트 개발까지 앞 단에서 필요한 작업은 전부 혼자 진행</p>
                             <p className="bullet">Axios를 사용해 백엔드 개발자와 REST API 통신 및 데이터 바인딩 작업</p>
                         </li>
