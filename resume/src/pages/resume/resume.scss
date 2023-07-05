@@ -276,6 +276,12 @@
     overflow: hidden;
     cursor: pointer;
 
+    &:hover {
+        .card-content {
+            background-color: $background;
+        }
+    }
+
     &-thumnail {
         padding: 1rem;
         background-color: $mint;
@@ -290,10 +296,6 @@
 
     &-content {
         padding: 1rem;
-        
-        &:hover {
-            background-color: $background;
-        }
 
         .top {
             display: flex;
@@ -331,6 +333,7 @@
     font-weight: 500;
     margin-bottom: 5px;
     font-size: 0.90rem;
+    font-family: $font-code;
 
     &:not(:last-of-type) {
         margin-right: 5px;
@@ -348,13 +351,14 @@
 }
 
 .modal {
-    width: 80vw;
+    width: 90vw;
+    height: 80vh;
 
-    @include responsive(T) {
+    @include responsive(D) {
         width: 50vw;
+        height: 90vh;
     }
 
-    height: 90vh;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -366,7 +370,7 @@
     z-index: 999;
 
     &-close-btn {
-        width: 35px;
+        width: 30px;
         padding: 5px;
         position: absolute;
         right: 2rem;
@@ -423,7 +427,8 @@
             }
 
             .position {
-                font-size: 1.4rem;
+                font-size: 1.2rem;
+                font-weight: 500;
             }
 
             .caption {
@@ -431,7 +436,26 @@
                 font-size: 0.9rem;
                 text-align: right;
             }
+            
+            .demo-img {
+                width: 100%;
+            }
 
+            dl {
+                &:not(:last-of-type) {
+                    margin-bottom: 1.2rem;
+                }
+
+                dt {
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    margin-bottom: 0.5rem;
+                }
+
+                dd {
+                    padding-left: 10px;
+                }
+            }
 
         }        
 
@@ -496,17 +520,12 @@
         }
     }
 
-
-
-
-
-
 }
 
 .highlight {
     position: relative;
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
 
     a {
@@ -527,7 +546,7 @@
         left: 0;
         top: 10px;
         transform: skewX(-20deg);
-        background-color: $mint;
+        // background-color: $mint;
         z-index: -1;
     }
 }

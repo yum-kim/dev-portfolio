@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
-import { BsXCircleFill } from "react-icons/bs";
+import { BsXLg } from "react-icons/bs";
 
 const Modal = ({ children, onClose }) => {
     const [mounted, setMounted] = useState(false);
@@ -31,7 +31,7 @@ const Modal = ({ children, onClose }) => {
       <div className="modalBg" onClick={onClose}></div>
       <div className="modal">
         <button className="modal-close-btn" onClick={onClose}>
-          <BsXCircleFill />
+          <BsXLg />
         </button>
         {children}
       </div>
