@@ -385,8 +385,11 @@
 }
 
 .project-detail {
-    padding: 5rem;
-    border: 1px solid $border;
+    padding: 2rem 1.5rem;
+
+    @include responsive(D) {
+        padding: 5rem;
+    }
 
     &-title {
         align-items: center;
