@@ -446,17 +446,18 @@
 
             dl {
                 &:not(:last-of-type) {
-                    margin-bottom: 1.2rem;
+                    margin-bottom: 3rem;
                 }
 
                 dt {
                     font-size: 1.1rem;
                     font-weight: 600;
-                    margin-bottom: 0.5rem;
+                    margin-bottom: 1rem;
                 }
 
                 dd {
                     padding-left: 10px;
+                    margin-bottom: 0.5rem;
                 }
             }
 
